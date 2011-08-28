@@ -1,0 +1,27 @@
+h1. Vagrant
+
+Vagrant is used to create VirtualBox machines automatically and provision them with Puppet.
+
+Installation:
+
+# gem install vagrant veewee
+
+h2. Basebox
+
+Veewee is used once to create a 'debian64' box, so that Vagrant is able to use it for machines.
+
+bc. # Build Debian 64 "empty box"
+vagrant basebox build 'debian64'
+vagrant basebox export 'debian64'
+
+bc. # Add it to Vagrant
+vagrant box add debian64 debian64.box
+
+h2. Vagrant
+
+bc. vagrant up # creates the maching and provisions it
+vagrant provision # re-run Puppet provisioning
+vagrant reload # recreate (useful to refersh ports / mount points)
+vagrant suspend # suspend the machine
+vagrant resume # resume the machine
+vagrant destroy # destroy machine completely

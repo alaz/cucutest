@@ -1,0 +1,80 @@
+--- !ruby/object:Puppet::Node
+  classes: []
+  environment: &id001 production
+  expiration: 2011-08-16 13:25:50.974777 +04:00
+  name: r4.osinka.int
+  parameters: 
+    productname: S5500BC
+    processor3: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    kernelmajversion: "2.6"
+    kernelversion: 2.6.38
+    clientversion: 2.6.2
+    processor11: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    rubysitedir: /usr/local/lib/site_ruby/1.8
+    processor12: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    processor4: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    clientcert: r4.osinka.int
+    ps: ps -ef
+    processor13: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    processor5: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    lsbdistcodename: squeeze
+    lsbdistrelease: 6.0.2
+    hardwareisa: unknown
+    processor14: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    processor6: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    uniqueid: a8c08067
+    hostname: r4
+    processor15: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    kernelrelease: 2.6.38-2-amd64
+    processor7: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    kernel: Linux
+    uptime_seconds: "1295541"
+    facterversion: 1.5.7
+    processor8: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    ipaddress_dummy0: 192.168.103.128
+    network_dummy0: 192.168.103.0
+    processor9: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    netmask_eth0: 255.255.252.0
+    interfaces: "dummy0,eth0,eth1"
+    macaddress_eth0: 00:15:17:fa:f0:e0
+    is_virtual: "true"
+    macaddress: 8e:43:cf:ef:65:dc
+    uptime: 14 days
+    manufacturer: Intel Corporation
+    timezone: MSD
+    macaddress_eth1: 00:15:17:fa:f0:e1
+    "--- !ruby/sym _timestamp": Tue Aug 16 12:55:49 +0400 2011
+    puppetversion: 2.6.2
+    path: /usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+    macaddress_dummy0: 8e:43:cf:ef:65:dc
+    hardwaremodel: x86_64
+    fqdn: r4.osinka.int
+    uptime_days: "14"
+    virtual: xenu
+    operatingsystemrelease: 6.0.2
+    netmask_dummy0: 255.255.255.0
+    processorcount: "16"
+    environment: *id001
+    memorysize: 15.64 GB
+    rubyversion: 1.8.7
+    ipaddress: 192.168.103.128
+    physicalprocessorcount: "2"
+    lsbdistid: Debian
+    lsbdistdescription: Debian GNU/Linux 6.0.2 (squeeze)
+    swapsize: 7.45 GB
+    processor0: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    processor1: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    memoryfree: 12.66 GB
+    uptime_hours: "359"
+    architecture: amd64
+    selinux: "false"
+    domain: osinka.int
+    processor10: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    operatingsystem: Debian
+    processor2: Intel(R) Xeon(R) CPU           E5640  @ 2.67GHz
+    type: Main Server Chassis
+    id: root
+    lsbmajdistrelease: "6"
+    swapfree: 7.45 GB
+    netmask: 255.255.255.0
+  time: 2011-08-16 12:55:50.930269 +04:00
