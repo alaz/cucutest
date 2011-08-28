@@ -1,5 +1,5 @@
 This fails:
 
-# cucumber-puppet -v features/catalog/policy.feature
+bc. # cucumber-puppet -v features/catalog/policy.feature
 
 See "vagrant" folder as well for the test that succeeds

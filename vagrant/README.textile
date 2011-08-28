@@ -4,7 +4,7 @@ Vagrant is used to create VirtualBox machines automatically and provision them w
 
 Installation:
 
-# gem install vagrant veewee
+bc. # gem install vagrant veewee
 
 h2. Basebox
 
