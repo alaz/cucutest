@@ -1,4 +1,5 @@
 import "common"
+import "munin"
 
 class ph {
   $munin_host = $ipaddress_dummy0

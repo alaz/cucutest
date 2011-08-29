@@ -3,7 +3,7 @@ Vagrant::Config.run do |config|
   config.vm.box = "debian64"
 
   config.vm.customize do |vm|
-    vm.memory_size = 64
+    vm.memory_size = 128
     vm.name = "Cucu test"
   end
 
